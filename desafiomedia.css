@@ -1,0 +1,510 @@
+@media   (max-width:768px) {
+
+
+
+    #incode{
+        margin: 10px;
+        margin-bottom: 22px;
+        padding: 0;
+        display: flex;
+        justify-content: center;}
+
+    .menu {display: none;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        display: block;
+        padding-bottom: 25px;
+            
+    }
+    /*------------------------ primeira section*/
+
+
+      
+      .nome {
+        margin: 0;
+        padding: 0;
+        height: 600px;
+        width: auto;
+       padding-top: 60px;
+        display: flex;
+       
+        position: relative;
+        z-index: 1;
+      }
+      
+      .nome2 {
+        position: absolute;
+        z-index: 2;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        
+        font-size: 17px;
+        left: 50%;
+        
+        transform: translate(-50%, -50px);
+      
+      }
+      .nome2 h1 {
+        margin-top: 40%;
+        margin-bottom: 18px;
+      }
+      .nome2 p {
+        padding: 0;
+        width: 300px;
+        font-size: 22px;
+        text-align: start;
+        padding: 10%;
+        margin-left: 3%;
+       
+      }
+
+  
+      
+      #vector {
+        padding: 0;
+        margin: 0;
+        height: 300px;
+        width: 250px;
+        position:absolute,;
+        z-index: 1;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 48%;
+        margin-top: 25px;
+        opacity: 90%;
+
+
+      }
+    
+    /*-----------------------------segunda section*/
+
+      
+    .sobremim {
+    height: 1220px;
+    width: 90%;
+    
+    border-radius: 20px;
+    background-color: #22525c;
+    text-align:start;
+  
+    align-items: center;
+    display: block;
+    justify-content: center;
+    
+    margin: auto;
+  }
+  
+  .sobremim h2 {
+    display: block;
+    
+  
+    font-size: 30px;
+  }
+  
+  .tiomim {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+  }
+  .tiomim h2 {
+    width: 98%;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    margin-left: 7%;
+  }
+  
+  .tiomim p {
+   font-size: 20px;
+    text-align: start;
+    width: 94%;
+    height: 160px;
+    display: flex;
+    margin: 0;
+    margin-top: 1%;
+    padding-bottom: 5%;
+    color:#7A979D ;
+    padding-top: 1%;
+    margin-left: 7%;
+  }
+  
+  .tiamim {
+    margin-top: 5%;
+   
+    text-align: center;
+  }
+  
+  .txtmim {
+    width: 580px;
+    height: 125px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .mae {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    gap: 50%;
+    padding-top: 2%;
+    
+    
+  }
+  
+  .filhosmim {
+    border-color: #e9eeef;
+    margin: 3%;
+    color: #414a59;
+    background-color: #e9eeef;
+    height: 40%;
+    border-radius: 14px;
+    width: 80%;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    
+  }
+  
+  .filhosmim h3{
+    text-align: start;
+    margin-top: 8%;
+    font-size: 20px;
+    margin-bottom: 6%;
+   
+    
+    
+  }
+  
+  .filhosmim p {
+    font-size: 16px;
+    color: #737373;
+    text-align: start;
+    margin-top: 9px;
+  }
+
+  /*---------------terceira section*/
+
+  
+    .skill {
+    padding: 0;
+    height: 550px;
+    margin-top: 12%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skill h2 {
+    text-transform: uppercase;
+   font-size: 42px;
+    display: inline-block;
+    align-items: start;
+  }
+  
+  .filhossk {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+    margin: auto ;
+    padding-top: 2%;
+    align-items: center;
+    
+    height: 90%;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    padding: 10%;
+    padding-left: 14%;
+   
+  }
+  
+  .netossk {
+    height: 140px;
+    width: 104px;
+    
+  }
+
+  
+  
+  
+  
+  
+  
+  .imgfigma, .imgcss, .imghtml, .imgjs {
+    height: 100%;
+    width: 120%;
+    background-repeat: no-repeat;
+    background-position: start center;
+    background-size:cover;
+  
+  }
+  
+  .netossk .imgfigma {
+    background-image:url("Figma.png");
+  
+    
+  }
+  
+  .netossk .imghtml{
+    background-image: url("logohtml.png");
+   
+  }
+  
+  .netossk .imgcss {
+    background-image: url("logocss.png");
+   
+  }
+  
+  .netossk .imgjs {
+    background-image: url("logojavascript.png");
+    
+  }
+  
+  
+  
+  .netossk p {
+    margin-top: 10%;
+    font-size: 18px;
+    width: 120%;
+  }
+
+  /*--------------------QUARTA section*/
+
+  
+    .projetos {
+    margin: 12% 0px 0px 0px;
+    height: 1000px;
+    display: block;
+  }
+  
+  .projetos h2{
+    font-size: 42px;
+    text-transform: uppercase;
+  }
+  
+  .grupoproj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto ;
+    align-items: center;
+    
+    
+    }
+        .exeprojetos {
+        height: 37%;
+        width: 95%;
+        background-color: #666d79;
+        border: 1px solid #666D79;
+        border-radius: 14px;
+        position: relative;
+        z-index: 2;
+        justify-content: start;
+    
+  
+     }
+    
+    #Roboimg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("Robot.png");
+    width: 50%;
+    height: 210px;
+    position: absolute;
+    z-index: 1;
+    top: 23%;
+    left: 51%;
+    display: flex;
+    align-items: start;
+    opacity: 80%;
+    margin: 0;
+    
+    }
+    
+    .exeprojetos h3{
+        font-size: 24px;
+        text-align: start;
+        padding: 9px 30px 5px 30px;
+    }
+    
+    .exeprojetos p {
+        color: #2e3137;
+        font-size: 19px;
+    text-align: start;
+        padding: 5px 30px 0px 30px;
+    }
+    
+    .exeprojetos a:link {
+        color: #fff ;
+        font-size: 17px;
+    }
+    
+    .exeprojetos a {
+        text-align: end;
+    }
+    .exeprojetos div {
+        display: flex;
+        justify-content: start;
+        padding-left: 40px;
+    }
+
+    /**----------------------------footer*/
+    
+    .footer {
+        margin: 0;
+        padding: 0;
+        background-color: #666d79;
+        width: 100%;
+        overflow: hidden;
+        flex-direction: column;
+        
+        
+    }
+    
+    .blocincode {
+        height: 20%;
+    }
+    
+    .blocincode #incode{
+        margin-top: 2%;
+        text-transform: uppercase;
+        margin-left:5%;
+        width: 49%;
+    }
+    
+    .foo {
+        margin-top: 0;
+        width: 100%;
+        margin-bottom: 150%;
+        
+    }
+    
+    .contatos {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    
+    #cont {
+        width: 90%;
+        font-size: 33px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+       
+    }
+    
+    .filhoscont {
+        margin: 1.2%;
+        
+        
+    }
+    
+    
+    
+    .filhoscont:nth-child(2){
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .filhoscont:nth-child(1){
+        font-size: 18px;
+        width: 60%;
+    }
+    
+    #contatinhos{
+        font-size: 16px;
+    }
+    
+    footer #vectorirmao {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        z-index: 1;
+    
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    
+    .vectorirmao {
+        margin-top: 3%;
+        height: 405px;
+        width: 390px;
+        opacity: 70%;
+        
+    
+        
+    }
+    
+    .tiocont1 {
+        margin: 0;
+    }
+    
+    
+    
+    .tiocont1, .tiocont2{
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    #telefone{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-image: url("Phone.png");
+        float: left;
+        height:18px ;
+        width: 18px;
+        margin-right: 2.8%;
+    }
+    
+    #gmail{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-image: url("logoemail.png");
+        float: left;
+        height: 18px ;
+        width: 18px;
+        margin-right: 2.8%;
+    }
+    
+    #github{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-image: url("GithubLogo.png");
+        float: left;
+        height:18px ;
+        width: 18px;
+        margin-right: 2%;
+    }
+    
+    #linkedin{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:contain;
+        background-image: url("LinkedinLogo.png");
+        float: left;
+        height: 18px;
+        width:18px ;
+        margin-right: 2%;
+    }
+    
+}
